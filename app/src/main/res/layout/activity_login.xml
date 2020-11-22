@@ -23,7 +23,7 @@
         android:layout_marginRight="130dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@+id/Nmc" />
+        android:text="NoMoreCovid " />
 
     <EditText
         android:id="@+id/editText3"
