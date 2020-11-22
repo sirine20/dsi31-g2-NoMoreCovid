@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Nmc" type="id">NoMoreCovid</item>
+    <item name="rememberme" type="id">Remember me</item>
+    <item name="signIn" type="id">SignIn</item>
+    <item name="signUp" type="id">SignUp</item>
+    <item name="password" type="id">Password</item>
+    <item name="login" type="id">login</item>
+</resources>
