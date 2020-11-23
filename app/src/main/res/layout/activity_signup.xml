@@ -22,7 +22,8 @@
         android:ems="10"
         android:hint="@string/editText6"
         android:inputType="textEmailAddress"
-        android:text="@string/app_name"
+        android:text="signup"
+        android:textColor="#0C1F8F"
         android:importantForAutofill="no" />
 
     <EditText
@@ -41,7 +42,7 @@
         android:layout_marginRight="114dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Username"
+        android:text="Username"
         android:textColor="#0C1F8F"
         android:importantForAutofill="no" />
 
@@ -80,7 +81,7 @@
         android:layout_marginRight="66dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/email"
+        android:text="email"
         android:textColor="#0C1F8F"
          />
 
@@ -118,7 +119,7 @@
         android:layout_marginRight="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Password"
+        android:text="Password"
         android:textColor="#0C1F8F"
         android:importantForAutofill="no" />
 
