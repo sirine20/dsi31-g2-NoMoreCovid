@@ -6,6 +6,7 @@
         android:orientation="vertical">
 
         <EditText
+            android:autofillHints=""
             android:id="@+id/editText6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
