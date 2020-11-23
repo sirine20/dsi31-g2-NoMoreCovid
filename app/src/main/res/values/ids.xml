@@ -6,4 +6,5 @@
     <item name="signUp" type="id">SignUp</item>
     <item name="password" type="id">Password</item>
     <item name="login" type="id">login</item>
+
 </resources>
