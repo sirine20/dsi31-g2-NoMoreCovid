@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <EditText
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
@@ -13,94 +14,118 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
         android:hint="@+id/login"
+        android:inputType="textEmailAddress"
         android:text="Advices"
-        android:inputType="textEmailAddress" />
+        android:textSize="24sp" />
+
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/ButtonTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText3"
-
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="179dp"
-        android:text="Alwyas put on your mask" />
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/a"
+        android:drawablePadding="20sp"
+        android:gravity="left|center "
+        android:text="Alwyas put on your mask"
+        android:textColor="#0C0C0C" />
 
     <Button
-        android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button12"
+        android:layout_below="@+id/ButtonTest"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="clean your hands with alcohol" />
+        android:layout_marginRight="26dp"
+        android:drawableLeft="@drawable/a"
+        android:drawablePadding="20sp"
+        android:gravity="left|center "
+        android:text="@string/clean your hands with alcohol"
+        android:textColor="#0C0C0C" />
 
     <Button
-        android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button13"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="31dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="don't be so close to other peoples " />
+        android:layout_marginBottom="219dp"
+        android:drawableLeft="@drawable/a"
+        android:drawablePadding="20sp"
+        android:gravity="left|center "
+        android:text="@string/don't be so close to other peoples "
+        android:textColor="#0C0C0C" />
 
     <Button
-        android:id="@+id/button15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button14"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="31dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="always use a tissue after cough" />
+        android:layout_marginBottom="123dp"
+        android:drawableLeft="@drawable/a"
+        android:drawablePadding="20spsp"
+        android:gravity="left|center "
+        android:text="@string/Always user a tissue after cough"
+        android:textColor="#0C0C0C" />
 
     <Button
-        android:id="@+id/button16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button15"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="if you some symptoms stay home andcall 198" />
-
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="41dp"
+        android:drawableLeft="@drawable/a"
+        android:drawablePadding="20sp"
+        android:gravity="left|center "
+        android:text="@string/if_you_some_symptoms_stay_home_andcall_198"
+        android:textColor="#0C0C0C" />
 
 </RelativeLayout>
