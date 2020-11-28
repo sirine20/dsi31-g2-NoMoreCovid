@@ -1,4 +1,4 @@
-package com.dsi31.groupe2;
+package com.dsi31.g2.NoMoreCovid;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation ().getTargetContext ();
 
-        assertEquals ( "com.dsi31.groupe2", appContext.getPackageName () );
+        assertEquals ( "com.dsi31.g2.NoMoreCovid", appContext.getPackageName () );
     }
 }

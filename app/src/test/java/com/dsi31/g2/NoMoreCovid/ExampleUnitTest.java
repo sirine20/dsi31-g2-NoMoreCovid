@@ -1,4 +1,4 @@
-package com.dsi31.groupe2;
+package com.dsi31.g2.NoMoreCovid;
 
 import org.junit.Test;
 
