@@ -62,7 +62,7 @@
         android:drawableLeft="@drawable/a"
         android:drawablePadding="20sp"
         android:gravity="left|center "
-        android:text="@string/clean your hands with alcohol"
+        android:text="clean your hands with alcohol"
         android:textColor="#0C0C0C" />
 
     <Button
@@ -83,7 +83,7 @@
         android:drawableLeft="@drawable/a"
         android:drawablePadding="20sp"
         android:gravity="left|center "
-        android:text="@string/don't be so close to other peoples "
+        android:text="don't be so close to other peoples "
         android:textColor="#0C0C0C" />
 
     <Button
@@ -102,9 +102,9 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="123dp"
         android:drawableLeft="@drawable/a"
-        android:drawablePadding="20spsp"
+        android:drawablePadding="20sp"
         android:gravity="left|center "
-        android:text="@string/Always user a tissue after cough"
+        android:text="Always user a tissue after cough"
         android:textColor="#0C0C0C" />
 
     <Button

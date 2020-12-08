@@ -78,7 +78,6 @@
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp"
                 android:layout_marginBottom="101dp"
-                android:numStars=""
                 android:rating="2.5"
                 android:scrollbarStyle="insideOverlay"
                 android:stepSize="0.5" />
