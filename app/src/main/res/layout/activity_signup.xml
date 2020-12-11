@@ -14,17 +14,20 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
         android:hint="editText6"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
-        android:text="signup"
+        android:text="Signup"
         android:textColor="#0C1F8F"
-        android:importantForAutofill="no" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editText7"
@@ -37,14 +40,15 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginRight="114dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="Username"
         android:textColor="#0C1F8F"
-        android:importantForAutofill="no" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/editText8"
@@ -57,11 +61,11 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="53dp"
         android:ems="10"
-        android:hint="@+id/username"
+        android:hint="username"
         android:inputType="textPersonName"
         android:importantForAutofill="no" />
 
@@ -76,14 +80,14 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="66dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="email"
+        android:text="Email"
         android:textColor="#0C1F8F"
-         />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/editText10"
@@ -96,12 +100,13 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="79dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textEmailAddress"
-        android:autofillHints="" />
+        />
 
     <EditText
         android:id="@+id/editText12"
@@ -114,14 +119,15 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="182dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:text="Password"
         android:textColor="#0C1F8F"
-        android:importantForAutofill="no" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/editText13"
@@ -134,11 +140,11 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
-        android:hint="@+id/password"
+        android:hint="password"
         android:inputType="textPassword"
         android:importantForAutofill="no" />
 
@@ -151,13 +157,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="157dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginRight="166dp"
-        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
         android:text="sign up" />
 
 
